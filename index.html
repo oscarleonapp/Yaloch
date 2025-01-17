@@ -1,26 +1,381 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Yaloch</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="style.css">
+<html lang="es-ES" data-bs-theme="light">
+  <head>
+    <base href="">
+    <meta charset="utf-8">
+    <title>Yaloch</title>
+    <link rel="canonical" href="https://oscarleon.app">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon16x16.png">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <!-- <meta name="author" content="OSCARLEON">
+    <meta name="copyright" content="OSCARLEON 2024. Todos los derechos reservados.">
+    <meta name="theme-color" content="#1c2129">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="OSCARLEON | Desarrollo Web y SEO">
+    <meta property="og:title" content="OSCARLEON: Desarrollo Web y Marketing Digital">
+    <meta property="og:description" content="Soluciones en Desarrollo Web, Marketing Digital y SEO para impulsar tu negocio. Contacta con nosotros y crece con tecnología.">
+    <meta property="og:image" content="assets/source/img/about-img.png">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:url" content="https://oscarleon.app">
+    <meta property="og:type" content="website">
+    <meta name="title" content="OSCARLEON: Desarrollo Web y Marketing Digital">
+    <meta name="description" content="Ofrecemos soluciones de desarrollo de software, marketing digital y posicionamiento SEO a medida para empresas y emprendedores.">
+    <meta name="keywords" content="Desarrollo Web, SEO, Marketing Digital, Desarrollo de Apps, Sistemas para Empresas, Hosting, Diseño Web, Posicionamiento en Google, Community Manager">
+    <meta name="image" content="https://oscarleonapp.github.io/OSCARLEON-3.0/assets/favicon/favicon180x180.png">
+    <link rel="alternate" hreflang="es-ES" href="https://oscarleon.app">
+    <meta name="distribution" content="global">
+    <meta name="googlebot" content="index, follow">
+    <meta name="audience" content="business, entrepreneurs">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="category" content="Desarrollo Web y Marketing Digital">
+    <meta name="telephone" content="+50241833532">
+    <meta name="generator" content="OSCARLEON">
+    <meta name="sitedomain" content="https://oscarleon.app">
+    <meta name="organization" content="OSCARLEON">     -->
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="container">
-  <div class="wrapper">
-    <div class="content">
-      <div class="item">
-        <!-- Place your content here to have it be centered vertically and horizontally  -->
-        <h1>YALOCH</h1>
-        <p>El sitio web esta en construcción, muy pronto podrás navegar en el.</p>
+    <!-- Theme switcher (color modes) -->
+    <script src="assets/js/theme-switcher.js"></script>
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+  </head>
+  <body>
+    <main class="page-wrapper">
+      <!-- Navbar -->
+      <!-- Remove "fixed-top" class to make navigation bar scrollable with the page -->
+      <!-- <header class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top">
+        <div class="container px-3">
+          <a href="https://oscarleon.app/" class="navbar-brand pe-3">
+            <img src="https://oscarleon.app/assets/img/oscarleon.svg" width="150" alt="OSCARLEON">
+
+          </a>
+          <div id="navbarNav" class="offcanvas offcanvas-end">
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" aria-current="page">Servicios en TI</a>
+                  <div class="dropdown-menu p-0">
+                    <div class="d-lg-flex">
+                      <div class="mega-dropdown-column pt-lg-3 pb-lg-4" style="--si-mega-dropdown-column-width: 15rem;">
+                        <ul class="list-unstyled mb-0">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Sistema%20para%20Inventarios*%2C%20gracias." class="dropdown-item">Sistemas para Inventarios</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Sistema%20para%20Manejo%20de%20Planilla*%2C%20gracias." class="dropdown-item" style=" cursor: default;">Sistema para Manejo de Planilla</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Tiendas%20en%20L%C3%ADnea*" class="dropdown-item" style=" cursor: default;">Tiendas en Línea</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Sistema%20para%20Ventas%20(POS)*" class="dropdown-item d-flex align-items-center" style=" cursor: default;">Sistema para Ventas (POS)</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Sistema%20para%20RRHH*" class="dropdown-item" style=" cursor: default;">Sistema para RRHH</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20de%20Apps%20Android*" class="dropdown-item" style=" cursor: default;">Desarrollo de Apps Android</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20de%20Apps%20IOS*" class="dropdown-item" style=" cursor: default;">Desarrollo de Apps IOS</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20Web%20a%20la%20medida*" class="dropdown-item" style=" cursor: default;">Desarrollo Web a la medida</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20Web%20en%20WordPress*" class="dropdown-item" style=" cursor: default;">Desarrollo Web en WordPress</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20de%20Apps%20con%20AppSheet*" class="dropdown-item" style=" cursor: default;">Apps con AppSheet</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Wep%20Scraping%20con%20IA*" class="dropdown-item" style=" cursor: default;">Wep Scraping con IA</a></li>
+                        </ul>
+                      </div>
+                      <div class="mega-dropdown-column pt-lg-3 pb-lg-4">
+                        <ul class="list-unstyled mb-0">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Plantillas%20WordPress*" class="dropdown-item d-flex align-items-center" style=" cursor: default;">Plantillas WordPress</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Migraci%C3%B3n%20WordPress*" class="dropdown-item" style=" cursor: default;">Migración WordPress</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Migraci%C3%B3n%20PrestaShop*" class="dropdown-item" style=" cursor: default;">Migración PrestaShop</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Hosting*" class="dropdown-item" style=" cursor: default;">Hosting</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Servidores*" class="dropdown-item" style=" cursor: default;">Servidores</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Dominios*" class="dropdown-item" style=" cursor: default;">Dominios</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Certificados%20SSL*" class="dropdown-item" style=" cursor: default;">Certificados SSL</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Configuraci%C3%B3n%20de%20DNS*" class="dropdown-item" style=" cursor: default;">Configuración de DNS</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Themes%20Web*" class="dropdown-item" style=" cursor: default;">Themes Web</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Contrucci%C3%B3n%20Web%20en%20Bloques*" class="dropdown-item" style=" cursor: default;">Contrucción Web en Bloques</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Dise%C3%B1o%20web%20para%20correos*" class="dropdown-item" style=" cursor: default;">Diseño web para correos</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Otros servicios</a>
+                  <div class="dropdown-menu">
+                    <div class="d-lg-flex pt-lg-3">
+                      <div class="mega-dropdown-column">
+                        <h6 class="px-3 mb-2" style=" cursor: default;">Community Manager</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Community%20Manager%20Elite*" class="dropdown-item py-1" style=" cursor: default;">Elite</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Community%20Manager%20Visionario*" class="dropdown-item py-1" style=" cursor: default;">Visionario</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Community%20Manager%20Emprendedor*" class="dropdown-item py-1" style=" cursor: default;">Emprendedor</a></li>
+                        </ul>
+                        <h6 class="px-3 mb-2" style=" cursor: default;">Marketing</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Analytics*" class="dropdown-item py-1" style=" cursor: default;">Google Analytics</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Tag%20Manager*" class="dropdown-item py-1" style=" cursor: default;">Google Tag Manager</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Facebook%20Pixel*" class="dropdown-item py-1"style=" cursor: default;">Facebook Pixel</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Marketing%20de%20Contenido*" class="dropdown-item py-1" style=" cursor: default;">Marketing de Contenido</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Creaci%C3%B3n%20de%20estrategias*" class="dropdown-item py-1" style=" cursor: default;">Creación de estrategias</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Producci%C3%B3n%20Audiovisual*" class="dropdown-item py-1" style=" cursor: default;">Producción Audiovisual</a></li>
+                        </ul>
+                      </div>
+                      <div class="mega-dropdown-column">
+                        <h6 class="px-3 mb-2" style=" cursor: default;">Publicidad</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Facebook%20Adds*" class="dropdown-item py-1" style=" cursor: default;">Facebook Adds</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Instagram%20Adds*" class="dropdown-item py-1" style=" cursor: default;">Instagram Adds</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Adds*" class="dropdown-item py-1" style=" cursor: default;">Google Adds</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Tiktok%20Adds*" class="dropdown-item py-1"style=" cursor: default;">Tiktok Adds</a></li>
+                        </ul>
+                        <h6 class="px-3 mb-2" style=" cursor: default;">Diseño Gráfico</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Logotipos*" class="dropdown-item py-1" style=" cursor: default;">Logotipos</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Portafolios*" class="dropdown-item py-1" style=" cursor: default;">Portafolios</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Tarjetas%20de%20Presentaci%C3%B3n*" class="dropdown-item py-1" style=" cursor: default;">Tarjetas de Presentación</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Branding*" class="dropdown-item py-1" style=" cursor: default;">Branding</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Manual%20de%20identidad*" class="dropdown-item py-1" style=" cursor: default;">Manual de identidad</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Firma%20de%20correos*" class="dropdown-item py-1" style=" cursor: default;">Firma de correos</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Sellos*" class="dropdown-item py-1" style=" cursor: default;">Sellos</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Hojas%20membretadas*" class="dropdown-item py-1" style=" cursor: default;">Hojas membretadas</a></li>
+                        </ul>
+                      </div>
+                      <div class="mega-dropdown-column">
+                        <h6 class="px-3 mb-2" style=" cursor: default;">Posicionamiento</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Analytics%204*" class="dropdown-item py-1" style=" cursor: default;">Google Analytics 4</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Search%20Console*" class="dropdown-item py-1" style=" cursor: default;">Google Search Console</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*SEO%20Basic*" class="dropdown-item py-1" style=" cursor: default;">SEO Basic</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*SEO%20Standar*" class="dropdown-item py-1" style=" cursor: default;">SEO Standar</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*SEO%20Ultimate*" class="dropdown-item py-1" style=" cursor: default;">SEO Ultimate</a></li>
+                        </ul>
+                        <h6 class="px-3 mb-2" style=" cursor: default;">Invitación Web</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Invitaci%C3%B3n%20Web%20Bodas*" class="dropdown-item py-1" style=" cursor: default;">Bodas</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Invitaci%C3%B3n%20Web%20Cumplea%C3%B1os*" class="dropdown-item py-1" style=" cursor: default;">Cumpleaños</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Invitaci%C3%B3n%20Web%2015%20a%C3%B1os*" class="dropdown-item py-1" style=" cursor: default;">15 años</a></li>
+                        </ul>
+                        <h6 class="px-3 mb-2" style=" cursor: default;">Consultorías en</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Consultor%C3%ADas%20en%20Publicidad%20Digital*" class="dropdown-item py-1" style=" cursor: default;">Publicidad Digital</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Consultor%C3%ADas%20en%20Marketing*" class="dropdown-item py-1" style=" cursor: default;">Marketing</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Consultor%C3%ADas%20en%20SEO*" class="dropdown-item py-1" style=" cursor: default;">SEO</a></li>
+                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Consultor%C3%ADas%20en%20Seguridad%20Inform%C3%A1tica*" class="dropdown-item py-1" style=" cursor: default;">Seguridad Informática</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style=" cursor: default;" style=" cursor: default;">Portafolio</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://oscarleon.app/portafolio/portafolio-oscarleon.html" class="dropdown-item">Clientes</a></li>
+                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">Certificaciones</a></li>
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Herramientas</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="https://oscarleon.app/live-previews/live-preview-editor-de-imagen.html" class="dropdown-item">Edición de Imagen</a></li>
+                          <li><a href="https://oscarleon.app/live-previews/live-preview-qr-generador.html" class="dropdown-item">Crear QR</a></li>
+                        </ul>
+                      </li>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="offcanvas-header border-top">
+              <a href="https://api.whatsapp.com/send?phone=50241833532&text=%F0%9F%A4%9D%20Hola%2C%20OSCARLEON." class="btn btn-primary w-100" target="_blank" rel="noopener">
+                <i class="bi bi-whatsapp fs-4 lh-1 me-1"></i>
+                &nbsp;Contactar
+              </a>
+            </div>    
+          </div>
+          <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
+            <input type="checkbox" class="form-check-input" id="theme-mode">
+            <label class="form-check-label d-none d-sm-block" for="theme-mode">Claro</label>
+            <label class="form-check-label d-none d-sm-block" for="theme-mode">Oscuro</label>
+          </div>
+          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=50241833532&text=%F0%9F%A4%9D%20Hola%2C%20OSCARLEON." class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
+            <i class="bi bi-whatsapp fs-5 lh-1 me-1"></i>
+            &nbsp;Contactar
+          </a>
+        </div>
+
+      </header> -->
+
+     <!-- Hero slider + BG parallax -->
+     <section class="position-relative bg-light pt-lg-4 pt-xl-5" style="background: linear-gradient(90deg, #ffffff 0%, #ffffff 51.04%, #ffffff 100%);">
+      <div class="jarallax position-absolute top-0 start-0 w-100 h-100" data-jarallax="" data-speed="0.4">
+        
+      <div id="jarallax-container-0" class="jarallax-container" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+        <div class="jarallax-img" style="background-image: url(assets/img/hero-bg/bg-01.jpg); background-size: cover; background-position: center; position: fixed; top: -100px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden;"></div>
+      </div></div>
+      <div class="container position-relative zindex-2 pt-2 pt-sm-4 pt-md-5">
+        <div class="row justify-content-center pt-5">
+          <div class="col-lg-9 col-xl-8 text-center pt-5 mt-1">
+            <a href="#" class="d-inline-flex align-items-center fs-sm fw-semibold text-decoration-none border border-primary border-opacity-50 rounded-pill py-1 px-3">
+             <span class="text-gradient-primary lh-lg">New Silicon v2.0</span>
+              <i class="bx bx-right-arrow-alt text-gradient-primary fs-lg ms-2 me-n1"></i>
+            </a>
+            <h1 class="display-4 text-black pt-3 mt-3 mb-4">Powerful AI models to serve your business needs</h1>
+            <p class="text-black opacity-70 fs-xl">Our robust platform is designed to handle large volumes of data and processing power, making it perfect for businesses of all sizes.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-<!-- partial -->
-  
-</body>
+      <div class="d-none d-lg-block" style="height: 480px;"></div>
+      <div class="d-lg-none" style="height: 400px;"></div>
+      <div class="d-flex position-absolute bottom-0 start-0 w-100 overflow-hidden mb-n1" style="color: var(--si-body-bg);">
+        <div class="position-relative start-50 translate-middle-x flex-shrink-0" style="width: 3774px;">
+          <svg width="3774" height="201" viewBox="0 0 3774 201" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 200.003C0 200.003 1137.52 0.188224 1873.5 0.000134392C2614.84 -0.189325 3774 200.003 3774 200.003H0Z" fill="currentColor"></path></svg>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+    <section class="container position-relative zindex-3">
+      <div class="d-none d-lg-block" style="margin-top: -428px;"></div>
+      <div class=" d-lg-none" style="margin-top: -370px;"></div>
+      <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" data-swiper-options="{
+        &quot;slidesPerView&quot;: 1,
+        &quot;spaceBetween&quot;: 24,
+        &quot;pagination&quot;: {
+          &quot;el&quot;: &quot;.swiper-pagination&quot;,
+          &quot;clickable&quot;: true
+        },
+        &quot;breakpoints&quot;: {
+          &quot;560&quot;: {
+            &quot;slidesPerView&quot;: 2
+          },
+          &quot;960&quot;: {
+            &quot;slidesPerView&quot;: 3
+          }
+        }
+      }">
+        <div class="swiper-wrapper" id="swiper-wrapper-3248ee98e1025cffc" aria-live="polite" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+
+          <!-- Item -->
+          <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" style="width: 395.5px; margin-right: 24px;">
+            <a href="#" class="card-portfolio position-relative d-block rounded-3 overflow-hidden">
+              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1" style="background: linear-gradient(180deg, rgba(17, 24, 39, 0.00) 35.56%, #111827 95.3%);"></span>
+              <div class="position-absolute bottom-0 w-100 zindex-2 p-4">
+                <div class="px-md-3">
+                  <h3 class="h4 text-white mb-0">Lugar 1</h3>
+                  <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
+                    <span class="text-white fs-xs text-truncate opacity-70 pe-3">Order processing, price suggestions, user research</span>
+                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-img">
+                <img src="assets/img/hero-bg/1.jpg" alt="Ecommerce">
+              </div>
+            </a>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5" style="width: 395.5px; margin-right: 24px;">
+            <a href="#" class="card-portfolio position-relative d-block rounded-3 overflow-hidden">
+              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1" style="background: linear-gradient(180deg, rgba(17, 24, 39, 0.00) 35.56%, #111827 95.3%);"></span>
+              <div class="position-absolute bottom-0 w-100 zindex-2 p-4">
+                <div class="px-md-3">
+                  <h3 class="h4 text-white mb-0">Lugar 2</h3>
+                  <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
+                    <span class="text-white fs-xs text-truncate opacity-70 pe-3">Itinerary planning, freight pricing culculations, etc.</span>
+                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-img">
+                <img src="assets/img/hero-bg/2.jpg" alt="Transportation">
+              </div>
+            </a>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide" role="group" aria-label="3 / 5" style="width: 395.5px; margin-right: 24px;">
+            <a href="#" class="card-portfolio position-relative d-block rounded-3 overflow-hidden">
+              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1" style="background: linear-gradient(180deg, rgba(17, 24, 39, 0.00) 35.56%, #111827 95.3%);"></span>
+              <div class="position-absolute bottom-0 w-100 zindex-2 p-4">
+                <div class="px-md-3">
+                  <h3 class="h4 text-white mb-0">Lugar 3</h3>
+                  <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
+                    <span class="text-white fs-xs text-truncate opacity-70 pe-3">Market research, data visualization, user testing</span>
+                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-img">
+                <img src="assets/img/hero-bg/3.jpg" alt="Marketing">
+              </div>
+            </a>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide" role="group" aria-label="4 / 5" style="width: 395.5px; margin-right: 24px;">
+            <a href="#" class="card-portfolio position-relative d-block rounded-3 overflow-hidden">
+              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1" style="background: linear-gradient(180deg, rgba(17, 24, 39, 0.00) 35.56%, #111827 95.3%);"></span>
+              <div class="position-absolute bottom-0 w-100 zindex-2 p-4">
+                <div class="px-3">
+                  <h3 class="h4 text-white mb-0">Lugar 4</h3>
+                  <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
+                    <span class="text-white fs-xs text-truncate opacity-70 pe-3">Enhancing robot learning, improve robotic precision</span>
+                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-img">
+                <img src="assets/img/hero-bg/4.1.jpg" alt="Robotics">
+              </div>
+            </a>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide" role="group" aria-label="5 / 5" style="width: 395.5px; margin-right: 24px;">
+            <a href="#" class="card-portfolio position-relative d-block rounded-3 overflow-hidden">
+              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1" style="background: linear-gradient(180deg, rgba(17, 24, 39, 0.00) 35.56%, #111827 95.3%);"></span>
+              <div class="position-absolute bottom-0 w-100 zindex-2 p-4">
+                <div class="px-3">
+                  <h3 class="h4 text-white mb-0">Lugar 5</h3>
+                  <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
+                    <span class="text-white fs-xs text-truncate opacity-70 pe-3">Code generation, code debugging and optimization</span>
+                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-img">
+                <img src="assets/img/hero-bg/1.jpg" alt="Programming">
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pagination (bullets) -->
+        <div class="swiper-pagination position-relative bottom-0 pt-2 pt-md-3 mt-4 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+    </section>
+
+    </main>
+
+
+    <!-- Back to top button -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Subir</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+    <!-- Vendor Scripts -->
+    <script src="assets/vendor/rellax/rellax.min.js"></script>
+    <script src="assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="assets/js/theme.min.js"></script>
+
+    <!-- Modal Script Reunión virtual -->
+    <script src="assets/js/modal-reunio.js"></script>
+    <script src="assets/js/modal-cotizacion.js"></script>
+  </body>
 </html>
