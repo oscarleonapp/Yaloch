@@ -37,7 +37,7 @@
     <meta name="organization" content="OSCARLEON">     -->
 
     <!-- Theme switcher (color modes) -->
-    <script src="assets/js/theme-switcher.js"></script>
+    <!-- <script src="assets/js/theme-switcher.js"></script> -->
     <!-- Vendor Styles-->
     <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
     <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
@@ -49,10 +49,10 @@
     <main class="page-wrapper">
       <!-- Navbar -->
       <!-- Remove "fixed-top" class to make navigation bar scrollable with the page -->
-      <!-- <header class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top">
+      <header class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top" style="background-color: #ebe7db !important;">
         <div class="container px-3">
-          <a href="https://oscarleon.app/" class="navbar-brand pe-3">
-            <img src="https://oscarleon.app/assets/img/oscarleon.svg" width="150" alt="OSCARLEON">
+          <a href="https://yaloch.com/" class="navbar-brand pe-3">
+            <img src="assets/img/yaloch-verde.png" width="150" alt="OSCARLEON">
 
           </a>
           <div id="navbarNav" class="offcanvas offcanvas-end">
@@ -62,125 +62,49 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <!-- TOURS -->
                 <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" aria-current="page">Servicios en TI</a>
-                  <div class="dropdown-menu p-0">
-                    <div class="d-lg-flex">
-                      <div class="mega-dropdown-column pt-lg-3 pb-lg-4" style="--si-mega-dropdown-column-width: 15rem;">
-                        <ul class="list-unstyled mb-0">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Sistema%20para%20Inventarios*%2C%20gracias." class="dropdown-item">Sistemas para Inventarios</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Sistema%20para%20Manejo%20de%20Planilla*%2C%20gracias." class="dropdown-item" style=" cursor: default;">Sistema para Manejo de Planilla</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Tiendas%20en%20L%C3%ADnea*" class="dropdown-item" style=" cursor: default;">Tiendas en Línea</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Sistema%20para%20Ventas%20(POS)*" class="dropdown-item d-flex align-items-center" style=" cursor: default;">Sistema para Ventas (POS)</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Sistema%20para%20RRHH*" class="dropdown-item" style=" cursor: default;">Sistema para RRHH</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20de%20Apps%20Android*" class="dropdown-item" style=" cursor: default;">Desarrollo de Apps Android</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20de%20Apps%20IOS*" class="dropdown-item" style=" cursor: default;">Desarrollo de Apps IOS</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20Web%20a%20la%20medida*" class="dropdown-item" style=" cursor: default;">Desarrollo Web a la medida</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20Web%20en%20WordPress*" class="dropdown-item" style=" cursor: default;">Desarrollo Web en WordPress</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Desarrollo%20de%20Apps%20con%20AppSheet*" class="dropdown-item" style=" cursor: default;">Apps con AppSheet</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20*Wep%20Scraping%20con%20IA*" class="dropdown-item" style=" cursor: default;">Wep Scraping con IA</a></li>
-                        </ul>
-                      </div>
-                      <div class="mega-dropdown-column pt-lg-3 pb-lg-4">
-                        <ul class="list-unstyled mb-0">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Plantillas%20WordPress*" class="dropdown-item d-flex align-items-center" style=" cursor: default;">Plantillas WordPress</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Migraci%C3%B3n%20WordPress*" class="dropdown-item" style=" cursor: default;">Migración WordPress</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Migraci%C3%B3n%20PrestaShop*" class="dropdown-item" style=" cursor: default;">Migración PrestaShop</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Hosting*" class="dropdown-item" style=" cursor: default;">Hosting</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Servidores*" class="dropdown-item" style=" cursor: default;">Servidores</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Dominios*" class="dropdown-item" style=" cursor: default;">Dominios</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Certificados%20SSL*" class="dropdown-item" style=" cursor: default;">Certificados SSL</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Configuraci%C3%B3n%20de%20DNS*" class="dropdown-item" style=" cursor: default;">Configuración de DNS</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Themes%20Web*" class="dropdown-item" style=" cursor: default;">Themes Web</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Contrucci%C3%B3n%20Web%20en%20Bloques*" class="dropdown-item" style=" cursor: default;">Contrucción Web en Bloques</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Dise%C3%B1o%20web%20para%20correos*" class="dropdown-item" style=" cursor: default;">Diseño web para correos</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Otros servicios</a>
-                  <div class="dropdown-menu">
-                    <div class="d-lg-flex pt-lg-3">
-                      <div class="mega-dropdown-column">
-                        <h6 class="px-3 mb-2" style=" cursor: default;">Community Manager</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Community%20Manager%20Elite*" class="dropdown-item py-1" style=" cursor: default;">Elite</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Community%20Manager%20Visionario*" class="dropdown-item py-1" style=" cursor: default;">Visionario</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Community%20Manager%20Emprendedor*" class="dropdown-item py-1" style=" cursor: default;">Emprendedor</a></li>
-                        </ul>
-                        <h6 class="px-3 mb-2" style=" cursor: default;">Marketing</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Analytics*" class="dropdown-item py-1" style=" cursor: default;">Google Analytics</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Tag%20Manager*" class="dropdown-item py-1" style=" cursor: default;">Google Tag Manager</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Facebook%20Pixel*" class="dropdown-item py-1"style=" cursor: default;">Facebook Pixel</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Marketing%20de%20Contenido*" class="dropdown-item py-1" style=" cursor: default;">Marketing de Contenido</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Creaci%C3%B3n%20de%20estrategias*" class="dropdown-item py-1" style=" cursor: default;">Creación de estrategias</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Producci%C3%B3n%20Audiovisual*" class="dropdown-item py-1" style=" cursor: default;">Producción Audiovisual</a></li>
-                        </ul>
-                      </div>
-                      <div class="mega-dropdown-column">
-                        <h6 class="px-3 mb-2" style=" cursor: default;">Publicidad</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Facebook%20Adds*" class="dropdown-item py-1" style=" cursor: default;">Facebook Adds</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Instagram%20Adds*" class="dropdown-item py-1" style=" cursor: default;">Instagram Adds</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Adds*" class="dropdown-item py-1" style=" cursor: default;">Google Adds</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Tiktok%20Adds*" class="dropdown-item py-1"style=" cursor: default;">Tiktok Adds</a></li>
-                        </ul>
-                        <h6 class="px-3 mb-2" style=" cursor: default;">Diseño Gráfico</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Logotipos*" class="dropdown-item py-1" style=" cursor: default;">Logotipos</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Portafolios*" class="dropdown-item py-1" style=" cursor: default;">Portafolios</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Tarjetas%20de%20Presentaci%C3%B3n*" class="dropdown-item py-1" style=" cursor: default;">Tarjetas de Presentación</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Branding*" class="dropdown-item py-1" style=" cursor: default;">Branding</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Manual%20de%20identidad*" class="dropdown-item py-1" style=" cursor: default;">Manual de identidad</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Firma%20de%20correos*" class="dropdown-item py-1" style=" cursor: default;">Firma de correos</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Sellos*" class="dropdown-item py-1" style=" cursor: default;">Sellos</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Hojas%20membretadas*" class="dropdown-item py-1" style=" cursor: default;">Hojas membretadas</a></li>
-                        </ul>
-                      </div>
-                      <div class="mega-dropdown-column">
-                        <h6 class="px-3 mb-2" style=" cursor: default;">Posicionamiento</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Analytics%204*" class="dropdown-item py-1" style=" cursor: default;">Google Analytics 4</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Google%20Search%20Console*" class="dropdown-item py-1" style=" cursor: default;">Google Search Console</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*SEO%20Basic*" class="dropdown-item py-1" style=" cursor: default;">SEO Basic</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*SEO%20Standar*" class="dropdown-item py-1" style=" cursor: default;">SEO Standar</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*SEO%20Ultimate*" class="dropdown-item py-1" style=" cursor: default;">SEO Ultimate</a></li>
-                        </ul>
-                        <h6 class="px-3 mb-2" style=" cursor: default;">Invitación Web</h6>
-                        <ul class="list-unstyled mb-3">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Invitaci%C3%B3n%20Web%20Bodas*" class="dropdown-item py-1" style=" cursor: default;">Bodas</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Invitaci%C3%B3n%20Web%20Cumplea%C3%B1os*" class="dropdown-item py-1" style=" cursor: default;">Cumpleaños</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Invitaci%C3%B3n%20Web%2015%20a%C3%B1os*" class="dropdown-item py-1" style=" cursor: default;">15 años</a></li>
-                        </ul>
-                        <h6 class="px-3 mb-2" style=" cursor: default;">Consultorías en</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Consultor%C3%ADas%20en%20Publicidad%20Digital*" class="dropdown-item py-1" style=" cursor: default;">Publicidad Digital</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Consultor%C3%ADas%20en%20Marketing*" class="dropdown-item py-1" style=" cursor: default;">Marketing</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Consultor%C3%ADas%20en%20SEO*" class="dropdown-item py-1" style=" cursor: default;">SEO</a></li>
-                          <li><a href="https://api.whatsapp.com/send?phone=50241833532&text=Hola%2C%20OSCARLEON%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20*Consultor%C3%ADas%20en%20Seguridad%20Inform%C3%A1tica*" class="dropdown-item py-1" style=" cursor: default;">Seguridad Informática</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style=" cursor: default;" style=" cursor: default;">Portafolio</a>
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style=" cursor: default;" style=" cursor: default;">TOURS</a>
                   <ul class="dropdown-menu">
-                    <li><a href="https://oscarleon.app/portafolio/portafolio-oscarleon.html" class="dropdown-item">Clientes</a></li>
-                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">Certificaciones</a></li>
-                      <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Herramientas</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="https://oscarleon.app/live-previews/live-preview-editor-de-imagen.html" class="dropdown-item">Edición de Imagen</a></li>
-                          <li><a href="https://oscarleon.app/live-previews/live-preview-qr-generador.html" class="dropdown-item">Crear QR</a></li>
-                        </ul>
-                      </li>
-                    </li>
+                    <li><a href="https://oscarleon.app/portafolio/portafolio-oscarleon.html" class="dropdown-item">TOURS DESDE GUATEMALA</a></li>
+                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">TOURS DESDE FLORES</a></li>
+                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">TOURS DESDE ANTIGUA</a></li>
+                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">TOURS DESDE BELICE</a></li>
                   </ul>
                 </li>
+                <!-- PAQUETES -->
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style=" cursor: default;" style=" cursor: default;">PAQUETES</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">COMBO</a></li>
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAQUETES A TIKAL</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#" class="dropdown-item">EXCURSIONES A TIKAL DESDE GUATEMALA</a></li>
+                          <li><a href="#" class="dropdown-item">EXCURSIONES A TIKAL DESDE BELICE</a></li>
+                        </ul>
+                      </li>
+                    <li><a href="#" class="dropdown-item">PAQUETES EN GUATEMALA</a></li>
+                    <li><a href="#" class="dropdown-item">EXCURSIONES A LOS VOLCANES</a></li>
+                    <li><a href="#" class="dropdown-item">RECORRIDOS EN HELICÓPTERO</a></li>
+                  </ul>
+                </li>
+
+                <!-- TOURS -->
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style=" cursor: default;" style=" cursor: default;">TIKAL</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://oscarleon.app/portafolio/portafolio-oscarleon.html" class="dropdown-item">GRUPO</a></li>
+                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">PRIVADO</a></li>
+                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">AVES Y BICICLETA</a></li>
+                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">AMANECER EN TIKAL</a></li>
+                    <li><a href="https://oscarleon.app/certificaciones/certificaciones.html" class="dropdown-item">ATARDECER</a></li>
+                  </ul>
+                </li>
+                <a href="#" class="nav-link">EL MIRADOR</a>
+                <a href="#" class="nav-link">VOLCANES</a>
+                <a href="#" class="nav-link">NOSOTROS</a>
               </ul>
             </div>
 
@@ -191,38 +115,37 @@
               </a>
             </div>    
           </div>
-          <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
+          <!-- <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
             <input type="checkbox" class="form-check-input" id="theme-mode">
             <label class="form-check-label d-none d-sm-block" for="theme-mode">Claro</label>
             <label class="form-check-label d-none d-sm-block" for="theme-mode">Oscuro</label>
-          </div>
+          </div> -->
           <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a href="https://api.whatsapp.com/send?phone=50241833532&text=%F0%9F%A4%9D%20Hola%2C%20OSCARLEON." class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
+          <a href="#" class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
             <i class="bi bi-whatsapp fs-5 lh-1 me-1"></i>
             &nbsp;Contactar
           </a>
         </div>
 
-      </header> -->
+      </header>
 
      <!-- Hero slider + BG parallax -->
      <section class="position-relative bg-light pt-lg-4 pt-xl-5" style="background: linear-gradient(90deg, #ffffff 0%, #ffffff 51.04%, #ffffff 100%);">
       <div class="jarallax position-absolute top-0 start-0 w-100 h-100" data-jarallax="" data-speed="0.4">
         
       <div id="jarallax-container-0" class="jarallax-container" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
-        <div class="jarallax-img" style="background-image: url(assets/img/hero-bg/bg-01.jpg); background-size: cover; background-position: center; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden;"></div>
-      </div></div>
+        <video class="jarallax-img w-100" autoplay muted loop playsinline style="background-size: cover; background-position: center; position: fixed; top: 0px; left: 0px; width: 100vw; height: 100%; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; object-fit: cover;">
+          <source src="assets/img/hero-bg/video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
       <div class="container position-relative zindex-2 pt-2 pt-sm-4 pt-md-5">
         <div class="row justify-content-center pt-5">
           <div class="col-lg-9 col-xl-8 text-center pt-5 mt-1">
-            <a href="#" class="d-inline-flex align-items-center fs-sm fw-semibold text-decoration-none border border-primary border-opacity-50 rounded-pill py-1 px-3">
-             <span class="text-gradient-primary lh-lg">New Silicon v2.0</span>
-              <i class="bx bx-right-arrow-alt text-gradient-primary fs-lg ms-2 me-n1"></i>
-            </a>
-            <h1 class="display-4 text-black pt-3 mt-3 mb-4">Powerful AI models to serve your business needs</h1>
-            <p class="text-black opacity-70 fs-xl">Our robust platform is designed to handle large volumes of data and processing power, making it perfect for businesses of all sizes.</p>
+            <h1 class="display-4 text-white pt-3 mt-3 mb-4">Estación Biológica <br> YALOCH</h1>
+            <p class="fs-xl" style="color: #dedace;">Descripción con énfasis comercial.</p>
           </div>
         </div>
       </div>
@@ -259,13 +182,13 @@
           <!-- Item -->
           <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" style="width: 395.5px; margin-right: 24px;">
             <a href="#" class="card-portfolio position-relative d-block rounded-3 overflow-hidden">
-              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1" style="background: linear-gradient(180deg, rgba(17, 24, 39, 0.00) 35.56%, #111827 95.3%);"></span>
+              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1"></span>
               <div class="position-absolute bottom-0 w-100 zindex-2 p-4">
                 <div class="px-md-3">
                   <h3 class="h4 text-white mb-0">Lugar 1</h3>
                   <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
                     <span class="text-white fs-xs text-truncate opacity-70 pe-3">Order processing, price suggestions, user research</span>
-                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                    <!-- <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i> -->
                   </div>
                 </div>
               </div>
@@ -278,13 +201,13 @@
           <!-- Item -->
           <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5" style="width: 395.5px; margin-right: 24px;">
             <a href="#" class="card-portfolio position-relative d-block rounded-3 overflow-hidden">
-              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1" style="background: linear-gradient(180deg, rgba(17, 24, 39, 0.00) 35.56%, #111827 95.3%);"></span>
+              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1"></span>
               <div class="position-absolute bottom-0 w-100 zindex-2 p-4">
                 <div class="px-md-3">
                   <h3 class="h4 text-white mb-0">Lugar 2</h3>
                   <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
                     <span class="text-white fs-xs text-truncate opacity-70 pe-3">Itinerary planning, freight pricing culculations, etc.</span>
-                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                    <!-- <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i> -->
                   </div>
                 </div>
               </div>
@@ -297,13 +220,13 @@
           <!-- Item -->
           <div class="swiper-slide" role="group" aria-label="3 / 5" style="width: 395.5px; margin-right: 24px;">
             <a href="#" class="card-portfolio position-relative d-block rounded-3 overflow-hidden">
-              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1" style="background: linear-gradient(180deg, rgba(17, 24, 39, 0.00) 35.56%, #111827 95.3%);"></span>
+              <span class="position-absolute top-0 start-0 w-100 h-100 zindex-1"></span>
               <div class="position-absolute bottom-0 w-100 zindex-2 p-4">
                 <div class="px-md-3">
                   <h3 class="h4 text-white mb-0">Lugar 3</h3>
                   <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
                     <span class="text-white fs-xs text-truncate opacity-70 pe-3">Market research, data visualization, user testing</span>
-                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                    <!-- <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i> -->
                   </div>
                 </div>
               </div>
@@ -322,7 +245,7 @@
                   <h3 class="h4 text-white mb-0">Lugar 4</h3>
                   <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
                     <span class="text-white fs-xs text-truncate opacity-70 pe-3">Enhancing robot learning, improve robotic precision</span>
-                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                    <!-- <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i> -->
                   </div>
                 </div>
               </div>
@@ -341,7 +264,7 @@
                   <h3 class="h4 text-white mb-0">Lugar 5</h3>
                   <div class="card-portfolio-meta d-flex align-items-center justify-content-between">
                     <span class="text-white fs-xs text-truncate opacity-70 pe-3">Code generation, code debugging and optimization</span>
-                    <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i>
+                    <!-- <i class="bx bx-right-arrow-circle fs-3 text-gradient-primary"></i> -->
                   </div>
                 </div>
               </div>
