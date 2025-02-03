@@ -381,7 +381,7 @@
 
     <!-- TOURS-->
     <section class="container py-5 mt-md-3 my-lg-5" >
-      <h2 class="h1 pt-xl-2 pb-4 mb-2 mb-lg-3">7 TOURS DISPONIBLES</h2>
+      <h2 class="h1 pt-xl-2 pb-4 mb-2 mb-lg-3">7 Tours Disponibles</h2>
       <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-autoheight swiper-backface-hidden" data-swiper-options="{
         &quot;slidesPerView&quot;: 1,
         &quot;spaceBetween&quot;: 24,
@@ -646,73 +646,94 @@
     </section>
 
     <!-- PAQUETES -->
-    <section class="pb-5 mb-2 mb-md-4 mb-lg-5" style="padding-top: 80px;">
-      <div class="pb-lg-4 pb-xl-5"  style="background-image: url(assets/img/yaloch/bg-6.webp);">
-        <div class="container pb-4 pb-md-5">
-          <div class="row">
-            <div class="col-xl-5 col-lg-6" style="margin-top: -80px;">
+    <section class="container pt-5 pb-2 mt-3 mt-sm-4 mt-xl-5 mb-4">
+      <h2 class="h1 text-center pb-3 pb-lg-4">One Tool — Endless Use Cases</h2>
 
-              <!-- Swiper tabs -->
-              <div class="swiper-tabs mx-auto" style="max-width: 526px;">
-                <div id="image-1" class="swiper-tab active">
-                  <img src="assets/img/yaloch/paquete1.png" class="rounded-3" alt="Image">
-                </div>
-                <div id="image-2" class="swiper-tab">
-                  <img src="assets/img/yaloch/paquete1.png" class="rounded-3" alt="Image">
-                </div>
-              </div>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs flex-nowrap justify-content-lg-center overflow-auto pb-2 mb-3 mb-lg-4" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-nowrap active" id="project-management-tab" data-bs-toggle="tab" data-bs-target="#project-management" type="button" role="tab" aria-controls="project-management" aria-selected="true">
+            <i class="bx bx-star fs-lg opacity-60 me-2"></i>
+            Paquete #1
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-nowrap" id="remote-work-tab" data-bs-toggle="tab" data-bs-target="#remote-work" type="button" role="tab" aria-controls="remote-work" aria-selected="false" tabindex="-1">
+            <i class="bx bx-briefcase-alt-2 fs-lg opacity-60 me-2"></i>
+            Paquete #2
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-nowrap" id="product-release-tab" data-bs-toggle="tab" data-bs-target="#product-release" type="button" role="tab" aria-controls="product-release" aria-selected="false" tabindex="-1">
+            <i class="bx bx-rocket fs-lg opacity-60 me-2"></i>
+            Product Release
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-nowrap" id="campaign-planning-tab" data-bs-toggle="tab" data-bs-target="#campaign-planning" type="button" role="tab" aria-controls="campaign-planning" aria-selected="false" tabindex="-1">
+            <i class="bx bx-bar-chart-alt-2 fs-lg opacity-60 me-2"></i>
+            Campaign Planning
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content bg-secondary rounded-3 py-4">
+
+        <!-- Project Management -->
+        <div class="tab-pane fade active show" id="project-management" role="tabpanel" aria-labelledby="project-management-tab">
+          <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+            <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+              <h3 class="mb-lg-4">1. Paquete para Amantes de la Naturaleza y Turismo Ecológico</h3>
+              <p>
+                <b>Destinos:</b> Yaloch, selva tropical, cascadas, lagos naturales. <br><br>
+                <b>Actividades incluidas:</b> Excursiones guiadas por el bosque, senderismos, visitas a lagos, observación de aves, picnic en la naturaleza. <br><br>
+                <b>Días:</b> 1 día (mañana o tarde). <br><br>
+                <b>Ventaja:</b> Descubre la biodiversidad y los paisajes más exóticos de Yaloch.
+
+              </p>
             </div>
-            <div class="col-xl-5 col-lg-6 offset-xl-1 pt-2 pt-md-4 pt-lg-5 mt-4">
+            <div class="col-lg-6 col-md-7 mt-md-4">
+              <img src="assets/img/yaloch/carr1.png" class="d-block my-lg-2 mx-auto me-md-0" width="595" alt="Image">
+            </div>
+          </div>
+        </div>
 
-              <!-- Slider prev/next buttons -->
-              <div class="d-flex justify-content-center justify-content-lg-start pb-3 mb-3">
-                <button type="button" id="prev" class="btn btn-prev btn-icon btn-sm me-2" aria-label="Previous slide" tabindex="0" aria-controls="swiper-wrapper-bc3ac91096763c556">
-                  <i class="bx bx-chevron-left"></i>
-                </button>
-                <button type="button" id="next" class="btn btn-next btn-icon btn-sm ms-2" aria-label="Next slide" tabindex="0" aria-controls="swiper-wrapper-bc3ac91096763c556">
-                  <i class="bx bx-chevron-right"></i>
-                </button>
-              </div>
+        <!-- Remote Work -->
+        <div class="tab-pane fade" id="remote-work" role="tabpanel" aria-labelledby="remote-work-tab">
+          <div class="row align-items-center pt-3 pb-2 pb-sm-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+            <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+              <h3 class="mb-lg-4">Remote work</h3>
+              <p>Ut ornare quisque blandit condimentum nec viverra habitant non. Consequat id leo bibendum enim, fringilla pulvinar volutpat fames. Ut fames ut sed lobortis nulla. In dui enim et pharetra gravida diam semper lectus tellus. Faucibus mi convallis.</p>
+            </div>
+            <div class="col-lg-6 col-md-7 mt-md-4">
+              <img src="assets/img/landing/saas-1/use-cases/02.png" class="d-block my-lg-2 mx-auto me-md-0" width="502" alt="Image">
+            </div>
+          </div>
+        </div>
 
-              <!-- Swiper slider -->
-              <div class="swiper mx-0 mb-md-n2 mb-xxl-n3 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" data-swiper-options="{
-                &quot;spaceBetween&quot;: 30,
-                &quot;loop&quot;: true,
-                &quot;tabs&quot;: true,
-                &quot;autoplay&quot;: {
-                  &quot;delay&quot;: 3000,
-                  &quot;disableOnInteraction&quot;: false
-                },
-                &quot;navigation&quot;: {
-                  &quot;prevEl&quot;: &quot;#prev&quot;,
-                  &quot;nextEl&quot;: &quot;#next&quot;
-                }
-              }">
-                <div class="swiper-wrapper text-center text-lg-start" id="swiper-wrapper-bc3ac91096763c556" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-556px, 0px, 0px);"><div class="swiper-slide pb-4 swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" data-swiper-tab="#image-2" data-swiper-slide-index="1" role="group" aria-label="2 / 2" style="width: 526px; margin-right: 30px;">
-                    <h2 class="h1 mb-4">PAQUETE #1</h2>
-                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Magna cursus feugiat sed sodales praesent vehicula integer arcu. Felis duis lectus felis, tempus aliquet quis non. At integer consectetur eget nunc, fames. Et facilisi vel, luctus sed interdum vitae nec, velit. Maecenas purus et pharetra, at volutpat aenean.</p>
-                    <a href="#" class="btn btn-danger btn-lg shadow-danger">Reservar</a>
-                  </div>
+        <!-- Product Release -->
+        <div class="tab-pane fade" id="product-release" role="tabpanel" aria-labelledby="product-release-tab">
+          <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 pe-sm-4 pe-md-0 ps-sm-4 ps-lg-0">
+            <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+              <h3 class="mb-lg-4">Product release</h3>
+              <p>Fames netus pretium massa lobortis sit metus et. Sit risus odio fermentum hac fames enim, ac, in. Neque lacus, consequat hendrerit potenti in tristique dictum. Tortor nec lorem et venenatis facilisis risus viverra nunc, eu. Eget suscipit vel amet.</p>
+            </div>
+            <div class="col-lg-6 col-md-7 mt-n3 mt-md-1">
+              <img src="assets/img/landing/saas-1/use-cases/03.png" class="d-block mb-lg-2 mx-auto me-md-0" width="525" alt="Image">
+            </div>
+          </div>
+        </div>
 
-                  <!-- Item -->
-                  <div class="swiper-slide pb-4 swiper-slide-active" data-swiper-tab="#image-1" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 526px; margin-right: 30px;">
-                    <h2 class="h1 mb-4">PAQUETE #2</h2>
-                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Morbi lacus vulputate mauris ut et nunc, tempor. Placerat augue eu amet feugiat mi sagittis velit. Sed suscipit nunc suspendisse morbi pharetra libero consectetur. Proin eros sollicitudin augue tempus. Aliquet id sit donec aliquam.</p>
-                    <a href="#" class="btn btn-success btn-lg shadow-success">Reservar</a>
-                  </div>
-
-                  <!-- Item -->
-                  <div class="swiper-slide pb-4 swiper-slide-next swiper-slide-duplicate-prev" data-swiper-tab="#image-2" data-swiper-slide-index="1" role="group" aria-label="2 / 2" style="width: 526px; margin-right: 30px;">
-                    <h2 class="h1 mb-4">PAQUETE #1</h2>
-                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Magna cursus feugiat sed sodales praesent vehicula integer arcu. Felis duis lectus felis, tempus aliquet quis non. At integer consectetur eget nunc, fames. Et facilisi vel, luctus sed interdum vitae nec, velit. Maecenas purus et pharetra, at volutpat aenean.</p>
-                    <a href="#" class="btn btn-danger btn-lg shadow-danger">Reservar</a>
-                  </div>
-                <div class="swiper-slide pb-4 swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-tab="#image-1" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 526px; margin-right: 30px;">
-                    <h2 class="h1 mb-4">PAQUETE #2</h2>
-                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Morbi lacus vulputate mauris ut et nunc, tempor. Placerat augue eu amet feugiat mi sagittis velit. Sed suscipit nunc suspendisse morbi pharetra libero consectetur. Proin eros sollicitudin augue tempus. Aliquet id sit donec aliquam.</p>
-                    <a href="#" class="btn btn-success btn-lg shadow-success">Reservar</a>
-                  </div></div>
-              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        <!-- Campaign Planning -->
+        <div class="tab-pane fade" id="campaign-planning" role="tabpanel" aria-labelledby="campaign-planning-tab">
+          <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 pe-sm-4 pe-md-0 ps-sm-4 ps-lg-0">
+            <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+              <h3 class="mb-lg-4">Campaign planning</h3>
+              <p>Diam bibendum scelerisque vel mauris magna. Iaculis interdum tincidunt eget nibh purus. Aliquet at sit morbi nisi volutpat fermentum scelerisque. Enim tincidunt eros sodales integer sapien. Eu ullamcorper egestas odio nunc faucibus. Sapien eu nunc sed facilisi luctus ac.</p>
+            </div>
+            <div class="col-lg-6 col-md-7 mt-n3 mt-md-1">
+              <img src="assets/img/landing/saas-1/use-cases/04.png" class="d-block mb-lg-2 mx-auto me-md-0" width="545" alt="Image">
             </div>
           </div>
         </div>
