@@ -90,6 +90,13 @@
 
                 <!-- TOURS -->
                 <a href="#faqs" class="nav-link">FAQS</a>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style=" cursor: default;" style=" cursor: default;">IDIOMA</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html#paquetes" class="dropdown-item">Español</a></li>
+                    <li><a href="index.html#paquetes" class="dropdown-item">Inglés</a></li>
+                  </ul>
+                </li>
               </ul>
             </div>
 
@@ -813,121 +820,50 @@
     <section id="faqs" class="container pb-5 mb-md-3 mb-lg-4 mb-xl-5">
       <div class="row pb-3">
         <div class="col-md-5 mb-4 mb-md-0">
-          <div class="card bg-dark h-100 p-lg-5 bg-size-cover" style="background-image: url(assets/img/faq2.jpeg); width: 600px;" data-bs-theme="dark">
+          <div class="card bg-dark h-100 p-lg-5 bg-size-cover" style="background-image: url(assets/img/faq2.jpeg); width: 100%;" data-bs-theme="dark">
             <div class="card-body p-lg-2">
               <h2 class="h1 text-light">¿Tienes alguna duda?</h2>
               <p class="fs-xl text-light opacity-70 mb-0">Revisa nuestras preguntas frecuentes</p>
             </div>
-            <div class="card-footer border-0 w-100 pt-0 p-4 p-lg-2">
-              <!-- <div class="h2 d-flex align-items-center text-light mb-4">$28.99<del class="fs-xl fw-normal opacity-70 ms-2">49.99</del></div> -->
-              <!-- <a href="#" class="btn btn-primary btn-lg shadow-primary">Contactar</a> -->
-              <!-- <a class="btn btn-primary btn-lg shadow-primary" href="https://api.whatsapp.com/send?phone=50253381169&text=Hola%2C%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener">
-                <i class="bi bi-whatsapp fs-4 lh-1 me-1"></i>
-                &nbsp;Contactar
-              </a> -->
-            </div>
           </div>
         </div>
         <div class="col-md-7">
-          <div class="accordion" id="faq">
-
-            <!-- Item -->
-            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-              <h3 class="accordion-header">
-                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-1" aria-expanded="false" aria-controls="q-1">¿Cómo puedo participar en los proyectos de la comunidad?</button>
-              </h3>
-              <div class="accordion-collapse collapse" id="q-1" data-bs-parent="#faq">
-                <div class="accordion-body fs-sm pt-0">
-                  <p>Puedes unirte a las reuniones mensuales o contactar al equipo organizador para saber cómo puedes contribuir con tus habilidades y ideas.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <div class="accordion w-100" id="faq">
+              
+              <!-- Primera columna de preguntas -->
+              <div class="d-flex flex-column flex-md-row gap-3">
+                <div class="flex-fill">
+                  <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-1" aria-expanded="false" aria-controls="q-1">¿Cómo puedo participar en los proyectos de la comunidad?</button>
+                    </h3>
+                    <div class="accordion-collapse collapse" id="q-1" data-bs-parent="#faq">
+                      <div class="accordion-body fs-sm pt-0">
+                        <p>Puedes unirte a las reuniones mensuales o contactar al equipo organizador para saber cómo contribuir.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-2" aria-expanded="false" aria-controls="q-2">¿Qué problemas comunes enfrenta la comunidad?</button>
+                    </h3>
+                    <div class="accordion-collapse collapse" id="q-2" data-bs-parent="#faq">
+                      <div class="accordion-body fs-sm pt-0">
+                        <p>Algunos problemas incluyen falta de información o recursos. Puedes reportar problemas al equipo organizador.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-            <!-- Item -->
-            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-              <h3 class="accordion-header">
-                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-2" aria-expanded="false" aria-controls="q-2">¿Qué problemas comunes enfrenta la comunidad y cómo puedo ayudar?</button>
-              </h3>
-              <div class="accordion-collapse collapse" id="q-2" data-bs-parent="#faq">
-                <div class="accordion-body fs-sm pt-0">
-                  <p>Alguncos problemas podrían incluir falta de información, recursos insuficientes o descoyuntaje en la participación. Puedes reportar estos issues al equipo o proponer soluciones colaborativas.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Item -->
-            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-              <h3 class="accordion-header">
-                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-3" aria-expanded="false" aria-controls="q-3">¿Cómo se realizan las votaciones y cómo puedo proponer una idea?</button>
-              </h3>
-              <div class="accordion-collapse collapse" id="q-3" data-bs-parent="#faq">
-                <div class="accordion-body fs-sm pt-0">
-                  <p>Las votaciones suelen realizarse durante las reuniones mensuales o a través del sistema digital de la comunidad. Si quieres proponer una idea, solo necesitas comunicártelo al equipo y ellos te guiarán en el proceso.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Item -->
-            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-              <h3 class="accordion-header">
-                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-4" aria-expanded="false" aria-controls="q-4">¿Cómo puedo acceder a recursos específicos como herramientas o capacitaciones?</button>
-              </h3>
-              <div class="accordion-collapse collapse" id="q-4" data-bs-parent="#faq">
-                <div class="accordion-body fs-sm pt-0">
-                  <p>Accede a los recursos disponibles a través del portal de la comunidad o contacta al equipo para obtener asistencia adicional si necesitas ayuda técnica.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Item -->
-            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-              <h3 class="accordion-header">
-                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-5" aria-expanded="false" aria-controls="q-5">¿Cómo se monitorea el progreso de los proyectos?</button>
-              </h3>
-              <div class="accordion-collapse collapse" id="q-5" data-bs-parent="#faq">
-                <div class="accordion-body fs-sm pt-0">
-                  <p>El progreso de cada proyecto se monitorea durante las reuniones y se informa a la comunidad en los boletines mensuales o a través de las redes sociales designadas.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-              <h3 class="accordion-header">
-                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-6" aria-expanded="false" aria-controls="q-6">¿Qué pasos debo seguir si encuentro un error o necesito asistencia técnica?</button>
-              </h3>
-              <div class="accordion-collapse collapse" id="q-6" data-bs-parent="#faq">
-                <div class="accordion-body fs-sm pt-0">
-                  <p>Si encuentras un error o necesitas ayuda técnica, contacta al equipo de soporte disponible o utiliza el formulario de contacto en la plataforma oficial.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
-              <h3 class="accordion-header">
-                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-7" aria-expanded="false" aria-controls="q-7">¿Cómo puedo contribuir con mi tiempo libre a la comunidad?</button>
-              </h3>
-              <div class="accordion-collapse collapse" id="q-7" data-bs-parent="#faq">
-                <div class="accordion-body fs-sm pt-0">
-                  <p>Puedes ofrecer tu tiempo para ayudar en eventos, reuniones o en los proyectos que se necesiten, según tus disponibilidades y habilidades.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item border-0 rounded-3 shadow-sm">
-              <h3 class="accordion-header">
-                <button class="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q-8" aria-expanded="false" aria-controls="q-8">¿Qué hacer si no encuentro una respuesta a mis preguntas?</button>
-              </h3>
-              <div class="accordion-collapse collapse" id="q-8" data-bs-parent="#faq">
-                <div class="accordion-body fs-sm pt-0">
-                  <p>Si no encuentras la información que buscas, no dudes en contactar al equipo de organización para que te ayuden de manera personalizada.</p>
-                </div>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    
   
     </main>
     <footer class="footer pt-5 pb-4 pb-lg-5">
